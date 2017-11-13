@@ -12,3 +12,9 @@ function destructivelyPrependKitten(name){
   var newKittens = kittens.slice();
   return newKittens;
 }
+
+unction destructivelyRemoveLastKitten(){
+  kittens.pop();
+  var newKittens = kittens.slice();
+  return newKittens;
+}
