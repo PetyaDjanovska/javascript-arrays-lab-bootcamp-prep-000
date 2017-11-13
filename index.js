@@ -34,3 +34,8 @@ function prependKitten(name){
   var newKittens = [`${name}`,...kittens];
   return newKittens;
 }
+
+function removeLastKitten(){
+  var newKittens = kittens.splice(kittens.length-1,1);
+  return newKittens;
+}
