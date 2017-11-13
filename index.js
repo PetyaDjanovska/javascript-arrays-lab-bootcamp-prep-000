@@ -18,3 +18,9 @@ function destructivelyRemoveLastKitten(){
   var newKittens = kittens.slice();
   return newKittens;
 }
+
+function destructivelyRemoveFirstKitten(){
+  kittens.shift();
+  var newKittens = kittens.slice();
+  return newKittens;
+}
